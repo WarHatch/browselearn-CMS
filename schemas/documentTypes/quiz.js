@@ -1,4 +1,5 @@
 import multichoiceQuestion from '../schemaTypes/multichoiceQuestion';
+import button from '../schemaTypes/button';
 
 export default {
   name: 'multichoice',
@@ -10,10 +11,17 @@ export default {
       type: 'string',
     },
     {
-      name: 'questions',
+      name: 'correctAnswers',
       type: 'array',
       of: [
-        multichoiceQuestion,
+        button,
+      ]
+    },
+    {
+      name: 'incorrectAnswers',
+      type: 'array',
+      of: [
+        button,
       ]
     }
   ]
