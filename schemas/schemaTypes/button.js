@@ -12,7 +12,7 @@ export default {
       type: 'boolean'
     },
     {
-      name: 'dissappears',
+      name: 'disappears',
       description: 'Is removed on click',
       type: 'boolean'
     },
