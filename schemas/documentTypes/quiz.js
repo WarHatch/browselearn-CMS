@@ -11,6 +11,10 @@ export default {
       type: 'string',
     },
     {
+      name: 'explanation',
+      type: 'text',
+    },
+    {
       name: 'correctAnswers',
       type: 'array',
       of: [
