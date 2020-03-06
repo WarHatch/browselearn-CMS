@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "browselearn"
+    "name": "EduGames"
   },
   "api": {
     "projectId": "0byunyul",
-    "dataset": "production"
+    "dataset": "teachers_content"
   },
   "plugins": [
     "@sanity/base",
