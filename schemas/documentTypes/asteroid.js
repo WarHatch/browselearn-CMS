@@ -1,7 +1,7 @@
 import button from '../schemaTypes/button';
 
 export default {
-  name: 'multichoice',
+  name: 'asteroid',
   type: 'document',
   title: 'Asteroidų žaidimas',
   fields: [
