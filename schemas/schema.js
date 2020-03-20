@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Import local schemas
 import asteroid from './documentTypes/asteroid';
+import sentenceConstructor from './documentTypes/sentenceConstructor';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -13,6 +14,7 @@ export default createSchema({
   // Proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
-    asteroid
+    asteroid,
+    sentenceConstructor
   ])
 })
