@@ -10,7 +10,7 @@ export default [
         .toLowerCase()
         .replace(/\s+/g, '-')
         .slice(0, 15) +
-        '/' + new Date().toISOString().slice(5, 19),
+        '@' + new Date().toISOString().slice(5, 19),
     },
     validation: Rule => Rule.required()
   },
